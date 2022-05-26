@@ -21,6 +21,10 @@ public class AdministratorService {
         return administratorRepo.save(administrator);
     }
 
+    public Administrator updateAdmin(Administrator administrator) {
+        return administratorRepo.save(administrator);
+    }
+
     public List<Administrator> findAllAdmin() {
         return administratorRepo.findAll();
     }
