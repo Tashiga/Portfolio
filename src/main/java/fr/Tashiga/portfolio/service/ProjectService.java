@@ -37,6 +37,4 @@ public class ProjectService {
         projectRepo.deleteProjectById(id);
     }
 
-//    add a comment for a commit
-//    an other comment
 }
